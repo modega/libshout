@@ -6,13 +6,13 @@ A fork of [libshout](https://github.com/native-bindings/libshout). Fixed an erro
 ### Installation
 
 ```
-
+npm i libshout-node
 ```
 
 ### Usage
 
 ```ts
-import {Shout} from 'libshout';
+import {Shout} from 'libshout-node';
 
 async function run() {
     const shout = new Shout();
