@@ -1,10 +1,7 @@
 # libshout-node
 
 ### Description
-
-```
 A fork of "[libshout](https://github.com/native-bindings/libshout)". Fixed an error in cpp code for personal use.
-```
 
 ### Installation
 
