@@ -104,7 +104,7 @@ NAN_METHOD(Shout::Send) {
     auto buffer = v8::Local<v8::ArrayBuffer>::Cast(info[0]);
     auto* shout = Nan::ObjectWrap::Unwrap<Shout>(info.Holder());
 
-    auto data = static_cast<unsigned char*>(buffer->GetContents().Data());
+    auto data = static_cast<unsigned char*>(buffer->Data());
 
     if(!shout->send(data, buffer->ByteLength())) {
         Nan::ThrowError(shout_get_error(shout->id));
