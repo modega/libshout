@@ -7,7 +7,7 @@
   "dependencies": {
     "bindings": "^1.5.0",
     "cmake-js": "^6.1.0",
-    "nan": "^2.14.2",
+    "nan": "^2.19.0",
     "tslib": "^2.1.0"
   },
   "main": "./index.js",
@@ -20,16 +20,20 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/VictorQueiroz/libshout"
+    "url": "https://github.com/modega/libshout-node"
   },
   "version": "0.0.2",
   "keywords": [
     "libshout",
     "icecast",
-    "streaming"
+    "streaming",
+    "libshout-node",
+    "node",
+    "shoutcast",
+    "audio streaming"
   ],
   "scripts": {
     "install": "npx cmake-js build"
   },
-  "name": "libshout"
+  "name": "libshout-node"
 }
