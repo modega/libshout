@@ -9,7 +9,16 @@ A fork of [libshout](https://github.com/native-bindings/libshout). Fixed errors 
 npm i libshout-node
 ```
 
-### Usage
+```
+Tested on POP!_OS 22.04
+```
+
+```
+NODE_INSTALL_DIR enviroment must be set
+Requires pkconfig on the system to be installed
+```
+
+## Usage
 
 ### Options
 - `setHost` - Icecast server host

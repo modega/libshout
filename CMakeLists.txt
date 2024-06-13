@@ -1,7 +1,7 @@
 project(shoutjs)
 cmake_minimum_required(VERSION 3.17)
 
-set(NODE_INSTALL_DIR "/home/linuxbrew/.linuxbrew/bin")
+set(NODE_INSTALL_DIR $ENV{NODE_INSTALL_DIR})
 
 add_library(shoutjs SHARED src/Shout.cpp)
 
